@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Efficient Todo — prioritised to-do list</title>
+    <meta
+      name="description"
+      content="A fast, offline-first to-do list with priorities, categories and dark mode. Built with Expo and React Native."
+    />
+    <meta name="theme-color" content="#F4F6FA" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0E1117" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Efficient Todo" />
+    <meta
+      property="og:description"
+      content="A fast, offline-first to-do list with priorities, categories and dark mode."
+    />
+    <meta property="og:image" content="/assets/icon.png" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="apple-touch-icon" href="/assets/icon.png" />
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        background-color: #f4f6fa;
+      }
+      @media (prefers-color-scheme: dark) {
+        html,
+        body {
+          background-color: #0e1117;
+        }
+      }
+      body {
+        overflow: hidden;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run Efficient Todo.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
