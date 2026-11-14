@@ -35,3 +35,15 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# test coverage
+coverage/
+
+# environment files
+.env
+.env.*
+!.env.example
+
+# editors
+.vscode/
+.idea/
