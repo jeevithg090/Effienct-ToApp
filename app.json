@@ -1,16 +1,17 @@
 {
   "expo": {
-    "name": "todo-app",
-    "slug": "todo-app",
+    "name": "Efficient Todo",
+    "slug": "efficient-todo",
+    "description": "A fast, offline-first to-do list with priorities, categories and dark mode.",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F4F6FA"
     },
     "ios": {
       "supportsTablet": true
@@ -18,12 +19,20 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#F4F6FA"
       },
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "name": "Efficient Todo",
+      "shortName": "Todo",
+      "description": "A fast, offline-first to-do list with priorities, categories and dark mode.",
+      "themeColor": "#1F5FD1",
+      "backgroundColor": "#F4F6FA",
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": ["expo-asset", "expo-font"]
   }
 }
